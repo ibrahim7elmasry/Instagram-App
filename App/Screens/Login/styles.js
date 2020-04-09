@@ -1,6 +1,7 @@
- export default {
+import colors from './../../Themes/Colors';
+export default {
      root: {
-    backgroundColor:'white',
+    backgroundColor:colors.basic.white,
     flex:1
   },
   Logo:{
@@ -13,8 +14,8 @@
      padding:30, 
     },
     email_password_textInputs:{
-        backgroundColor: '#e5e5e5',
-        height: 40,
+        backgroundColor: colors.offWhite,
+         height: 40,
          margin:10
     },
     loginSubmit: {

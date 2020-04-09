@@ -10,6 +10,7 @@ import {
     } from 'react-native'
 
 import styles from './styles'  
+import {Colors} from './../../Themes'
 export default class Login extends Component {
     state = {
         email: '',
@@ -44,7 +45,7 @@ export default class Login extends Component {
         <View style={styles.loginSubmit}>
                 <Button
                  title='Login'
-                 color="#f95e62"
+                 color= {Colors.instagram}
                   onPress={()=>{ this.props.navigation.navigate("Tabs")}} />
               </View>
 
